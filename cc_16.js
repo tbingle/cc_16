@@ -48,3 +48,5 @@ window.onload = fetchProductsThen;
 function handleError(error) {
     console.error('An error occurred: ', error.message);
 }
+fetchProductsThen();
+fetchProductsAsync();
